@@ -25,6 +25,17 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                     </svg>
                 </button>
+                <div id="dropdown-menu" class="absolute right-0 mt-2 w-48 bg-white rounded-3xl border border-slate-200 shadow-lg hidden z-10">
+                    <div class="py-2">
+                        <a href="#" class="block px-4 py-2 text-sm text-slate-700 hover:bg-slate-100">Profil</a>
+                        <a href="{{ route('admin.settings') }}" class="block px-4 py-2 text-sm text-slate-700 hover:bg-slate-100">Pengaturan</a>
+                        <hr class="my-1">
+                        <form method="POST" action="{{ route('logout') }}" class="block">
+                            @csrf
+                            <button type="submit" class="w-full text-left px-4 py-2 text-sm text-red-600 hover:bg-red-50">Logout</button>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
 
