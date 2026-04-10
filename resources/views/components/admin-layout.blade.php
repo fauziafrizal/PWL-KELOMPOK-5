@@ -30,3 +30,4 @@
 </div>
 <div class="flex-1">
 </div>
+<x-admin-header :title="$title ?? 'Ringkasan Minimarket'" />
