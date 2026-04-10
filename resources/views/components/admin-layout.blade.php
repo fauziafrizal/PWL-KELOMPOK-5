@@ -28,3 +28,5 @@
         <p class="mt-2 text-slate-400">Pantau penjualan dan stok dalam satu tampilan.</p>
     </div>
 </div>
+<div class="flex-1">
+</div>
