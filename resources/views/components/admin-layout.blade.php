@@ -1,20 +1,26 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Admin Panel Minimarket</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
+
 <body class="min-h-screen bg-slate-100 text-slate-900">
 </body>
+
 </html>
 <div class="lg:flex lg:min-h-screen">
 </div>
-<aside class="hidden lg:block lg:w-80 lg:sticky lg:top-0 lg:h-screen lg:overflow-y-auto lg:border-r lg:border-slate-200 lg:bg-slate-950 lg:text-slate-100">
+<aside
+    class="hidden lg:block lg:w-80 lg:sticky lg:top-0 lg:h-screen lg:overflow-y-auto lg:border-r lg:border-slate-200 lg:bg-slate-950 lg:text-slate-100">
 </aside>
 <div class="flex items-center gap-3 px-6 py-7">
-    <div class="flex h-12 w-12 items-center justify-center rounded-3xl bg-emerald-500 text-2xl font-semibold text-white">MM</div>
+    <div
+        class="flex h-12 w-12 items-center justify-center rounded-3xl bg-emerald-500 text-2xl font-semibold text-white">
+        MM</div>
     <div>
         <p class="text-lg font-semibold">MiniMarket</p>
         <p class="text-sm text-slate-400">Panel Admin</p>
