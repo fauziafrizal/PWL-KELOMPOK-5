@@ -27,7 +27,7 @@
             </div>
         </section>
 
-        <section class="overflow-hidden rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
+        8<section class="overflow-hidden rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
             <div class="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
                 <div>
                     <p class="text-sm font-medium uppercase tracking-[0.3em] text-slate-500">Daftar Produk</p>
